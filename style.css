@@ -1,0 +1,144 @@
+/* diffult Css */
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* .fixwith{
+    width: 1300px;
+    margin: auto;
+} */
+img{
+    max-width: 100%;
+    margin-left: 25px;
+}
+/* Header Css */
+.header{
+    background-color: #3498db;
+}
+.logo img{
+    width: 100px;
+    height: 60px;
+}
+.logo{
+    float: left;
+    width: 30%;
+}
+.munu{
+    float: right;
+    width: 70%;
+}
+.munu ul{
+    text-align: center;
+}
+.munu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.munu ul li a{
+    color: #ddd;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    padding: 15px 25px;
+    border-right: 1px solid #ddd;
+    transition: .4s;
+}
+.munu ul li:first-child a{
+    border-left: 1px solid #ddd;
+}
+.munu ul li a:hover{
+    background-color: #2980b9;
+}
+/* Banner Image */
+.banner{
+    background-image: url(img/Add\ a\ heading.jpg);
+    padding: 200px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner_caption{
+    text-align: center;
+    margin-top: 100px;
+    color: black;
+    font-size: 20px;
+}
+.banner_caption h2{
+    background-color: rgba(0,0,0,.4);
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 5px
+}
+/* services section */
+.service h4{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.service{
+
+}
+.sercice_itme{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 1px solid #161515;
+    box-sizing: border-box;
+    font-size: 25px;
+    padding: 20px;
+}
+.sercice_itme samp{
+    display: block;
+    height: 60px;
+    width: 60px;
+    background: #3498db;
+    color: #ddd;
+    margin: auto;
+    font-size: 40px;
+    border-radius: 20px 0 20px 0;
+    line-height: 60px;
+}
+/* Blog Section */
+.blog{
+    margin: 50px 0;
+}
+.blog_left{
+    float: left;
+    width: 70%;
+}
+.blog_right{
+    float: right;
+    width: 25%;
+}
+.blog_item{
+    margin-bottom: 20px;
+}
+.blog_item img{
+    float: left;
+    width: 160px;
+    height: auto;
+    margin-right: 15px
+}
+.blog_right{}
+.blog_right h2{
+    font-size: 20px;
+    border-bottom: 1px solid#ddd;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.blog_right ul{
+    list-style: none;
+}
+.blog_right ul li{
+    border: 1px solid #ddd;
+    background: #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
